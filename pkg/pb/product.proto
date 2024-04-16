@@ -14,7 +14,7 @@ service ProductService {
 
 message CreateProductRequest{
     string name = 1;
-    string stock = 2;
+    int64 stock = 2;
     int64  price = 3;
 }
 
